@@ -5,5 +5,13 @@ import MainLayout from "../layouts/MainLayout.astro"
 ---
 
 <MainLayout title="Astro Blog - Home" description="My private blog for learning web development">
-	<h1>Just a little test</h1>
+	<h1>Just a little <span>test</span></h1>
 </MainLayout>
+
+<style lang="scss">
+  h1 {
+    span {
+      color: blue;
+    }
+  }
+</style>
